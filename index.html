@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calcu">
+        <div id="calculator">
+            <div id="screen">
+                0
+            </div>
+            <div id="keys">      
+                <button id="undo" onclick="clearScreen()">←</button>
+                <button id="modulus" onclick="appendToScreen('%')">%</button>
+                <button id="divide" onclick="appendToScreen('/')">/</button>
+                <button id="multiply" onclick="appendToScreen('*')">*</button>
+                <button id="seven" onclick="appendToScreen('7')">7</button>
+                <button id="eight" onclick="appendToScreen('8')">8</button>
+                <button id="nine" onclick="appendToScreen('9')">9</button>
+                <button id="subtract" onclick="appendToScreen('-')">-</button>
+                <button id="four" onclick="appendToScreen('4')">4</button>
+                <button id="five" onclick="appendToScreen('5')">5</button>
+                <button id="six" onclick="appendToScreen('6')">6</button>
+                <button id="add" onclick="appendToScreen('+')">+</button>
+                <button id="one" onclick="appendToScreen('1')">1</button>
+                <button id="two" onclick="appendToScreen('2')">2</button>
+                <button id="three" onclick="appendToScreen('3')">3</button>
+                <button id="equals" onclick="calculate()">=</button>
+                <button id="clear" onclick="clearScreen()">c</button>
+                <button id="zero" onclick="appendToScreen('0')">0</button>
+                <button id="decimal" onclick="appendToScreen('.')">.</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
