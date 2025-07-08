@@ -10,7 +10,7 @@ function clearScreen() {
 
 function percentText() {
     screen.innerText = "Miss na kita.";
-    screen.style.fontSize = "3.2rem"; 
+    screen.style.fontSize = "2.8rem"; 
     screen.style.paddingTop = "0.5rem";
 }
 
