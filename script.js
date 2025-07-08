@@ -5,7 +5,13 @@ function appendToScreen(input) {
 }
 
 function clearScreen() {
-    screen.innerText = "";
+    screen.innerText = "0";
+}
+
+function percentText() {
+    screen.innerText = "Miss na kita.";
+    screen.style.fontSize = "3.2rem"; 
+    screen.style.paddingTop = "0.5rem";
 }
 
 function calculate() {
