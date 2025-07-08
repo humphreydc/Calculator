@@ -79,11 +79,14 @@ button:hover {
         width: 350px;
         height: 600px;
         padding: 2.5rem;
+        margin-top: 70px;
     }
 
     #screen {
         width: 280px;
         height: 70px;
+        font-size: 3rem;
+        padding-top: 0.5rem; 
     }
 
     #keys {
