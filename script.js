@@ -5,7 +5,7 @@ function appendToScreen(input) {
 }
 
 function clearScreen() {
-    screen.innerText = "0";
+    screen.innerText = "";
 }
 
 function percentText() {
